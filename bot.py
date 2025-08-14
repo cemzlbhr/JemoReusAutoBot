@@ -1,7 +1,7 @@
 import telebot
 import os
 
-TOKEN = os.environ.get("7551513135:AAFI_by9EaoUdoPpaGPmNPhEejyZvS4-0a8")  # Heroku ortam değişkeni
+TOKEN = os.environ.get("token")  # Heroku ortam değişkeni
 bot = telebot.TeleBot(TOKEN)
 
 # Her mesaja otomatik cevap
